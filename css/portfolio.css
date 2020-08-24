@@ -1,0 +1,157 @@
+#header {
+    background-color:#ff0003;
+    border: solid;
+    border-width: 10px;
+    position: fixed;
+    width: 2000px ;
+    height: 75px;
+    margin: -10px;
+    text-align: center;
+    display: flex;
+    
+}
+#nav-link {
+    padding-top: 30px;
+    margin-left: auto;
+
+}
+.sideBar {
+    background-image: url(/images/sidebar.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+.body {
+    display: flex;
+    
+}
+.projects {
+    padding-top: 50px;
+    background-color: aqua;
+    height: 900px;
+    width: 1000px;
+    margin-top: 60px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.icon-container {
+    background-color: #ff0003;
+    width: 20%;
+}
+i {
+    transform: scale(3);
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.icon-box {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: aqua;
+}
+#todo {
+    margin-left: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url('/images/todo_app/screenshot1mini.png');
+}
+#todo:hover {
+    background-color: black;
+    background-image: url('/images/todo_app/screenshot1mini2.png');
+    
+}
+.todo-icons {
+    margin-top: -50px;
+    display: none;
+
+}
+#todo:hover .todo-icons{
+    display: block;
+}
+.blog-icons {
+    margin-top: -50px;
+    display: none;
+}
+#blog {
+    text-align: center;
+    background-image: url('/images/django-blog/ss-mini.png') ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
+}
+#blog:hover {
+    background-color: darkslategray;
+    background-image: url('/images/django-blog/ss-mini2.png');
+}
+#blog:hover .blog-icons {
+    display: block;
+}
+.work-icons {
+    margin-top: -50px;
+    display: none;
+}
+#work {
+    text-align: center;
+    background-image: url('/images/django-blog/ss-mini.png') ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+}
+#work:hover {
+    background-color: rgb(42, 56, 56);
+    background-image: url('/images/django-blog/ss-mini2.png');
+}
+#work:hover .work-icons {
+    display: block;
+}
+
+.asteroid-icons {
+    margin-top: -50px;
+    display: none;
+}
+#asteroid {
+    text-align: center;
+    background-image: url('/images/django-blog/ss-mini.png') ;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+}
+#asteroid:hover {
+    background-color: rgb(42, 56, 56);
+    background-image: url('/images/django-blog/ss-mini2.png');
+}
+#asteroid:hover .asteroid-icons {
+    display: block;
+}
+.tetris-icons {
+    margin-top: -50px;
+    display: none;
+}
+#tetris {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    z-index: 0;
+}
+#tetris:hover {
+    background-color: rgb(42, 56, 56);
+}
+#tetris:hover .tetris-icons {
+    display: block;
+}
+
+
+
+ 
