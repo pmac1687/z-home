@@ -15,7 +15,7 @@
     margin: 20px;
 }
 .sideBar {
-    background-image: url(/images/sidebar.jpg);
+    background-image: url(./images/sidebar.jpg);
     height: 1000px;
     background-repeat: no-repeat;
     width: 600px;
@@ -49,14 +49,14 @@
 }
 #todo {
     margin-left:100px;
-    background-image: url(/images/todo_app/screenshot1mini.png);
+    background-image: url(./screenshot1mini.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #todo:hover {
     background-color: black;
-    background-image: url(/images/todo_app/screenshot1mini2.png);
+    background-image: url(./screenshot1mini2.png);
     width: 500px;
     height: 500px;
     color:white;
@@ -69,14 +69,14 @@
     transform: scale(3)
 }
 #blog {
-    background-image: url(/images/django-blog/ss-mini.png);
+    background-image: url(./ss-mini.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #blog:hover {
     background-color: black;
-    background-image: url(/images/django-blog/ss-mini2.png);
+    background-image: url(./ss-mini2.png);
     width: 500px;
     height: 500px;
     color:white;
@@ -108,14 +108,14 @@
     transform: scale(3)
 }
 #asteroid {
-    background-image: url(/images/asteroid/ast-mini2.png);
+    background-image: url(./ast-mini2.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #asteroid:hover {
     background-color: black;
-    background-image: url(/images/asteroid/ast-mini.png);
+    background-image: url(./ast-mini.png);
     width: 500px;
     height: 500px;
     color:white;
@@ -128,14 +128,14 @@
     transform: scale(3)
 }
 #hangman {
-    background-image: url(/images/hang-mini2.png);
+    background-image: url(./hang-mini2.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #hangman:hover {
     background-color: black;
-    background-image: url(/images/hang-mini.png);
+    background-image: url(./hang-mini.png);
     width: 500px;
     height: 500px;
     color:white;
@@ -167,14 +167,14 @@
     transform: scale(3)
 }
 #google {
-    background-image: url(/images/googlemini2.png);
+    background-image: url(./googlemini2.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #google:hover {
     background-color: black;
-    background-image: url(/images/googlemini.png);
+    background-image: url(./googlemini.png);
     width: 500px;
     height: 500px;
     color:white;
@@ -187,14 +187,14 @@
     transform: scale(3)
 }
 #calc {
-    background-image: url(/images/calcmini2.png);
+    background-image: url(./calcmini2.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #calc:hover {
     background-color: black;
-    background-image: url(/images/calcmini.png);
+    background-image: url(./calcmini.png);
     width: 500px;
     height: 500px;
     color:white;
@@ -207,14 +207,14 @@
     transform: scale(3)
 }
 #jordan {
-    background-image: url(/images/jordanmini2.png);
+    background-image: url(./jordanmini2.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     
 }
 #jordan:hover {
     background-color: black;
-    background-image: url(/images/jordanmini.png);
+    background-image: url(./jordanmini.png);
     width: 500px;
     height: 500px;
     color:white;
