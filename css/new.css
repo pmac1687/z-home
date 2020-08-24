@@ -15,7 +15,7 @@
     margin: 20px;
 }
 .sideBar {
-    background-image: url(/default-sidebar.jpg);
+    background-image: url(./default-sidebar.jpg);
     height: 1000px;
     background-repeat: no-repeat;
     width: 600px;
